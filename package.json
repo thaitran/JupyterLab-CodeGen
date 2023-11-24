@@ -52,7 +52,10 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0"
+        "@jupyterlab/application": "^4.0.9",
+        "@jupyterlab/apputils": "^4.1.9",
+        "openai": "^4.20.0",
+        "yarn": "^1.22.21"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",
