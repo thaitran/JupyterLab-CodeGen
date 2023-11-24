@@ -1,4 +1,4 @@
-# jupyterlab_codegen
+# JupyterLab CodeGen
 
 [![Github Actions Status](https://github.com/thaitran/JupyterLab-CodeGen/workflows/Build/badge.svg)](https://github.com/thaitran/JupyterLab-CodeGen/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thaitran/JupyterLab-CodeGen/main?urlpath=lab)
 JupyterLab extension that can generate code using GPT-4 (similar to ChatGPT's Code Interpreter)
@@ -7,21 +7,14 @@ JupyterLab extension that can generate code using GPT-4 (similar to ChatGPT's Co
 
 - JupyterLab >= 4.0.0
 
-## Install
+## Demo
 
-To install the extension, execute:
+Demo of generating code for the following prompts:
+1. Plot a heatmap of global warming trends for EU countries using the dataset at https://opendata.arcgis.com/datasets/4063314923d74187be9596f10d034914_0.csv
+2. Change this to black and white
+3. Plot this as a line graph
 
-```bash
-pip install jupyterlab_codegen
-```
-
-## Uninstall
-
-To remove the extension, execute:
-
-```bash
-pip uninstall jupyterlab_codegen
-```
+https://github.com/thaitran/JupyterLab-CodeGen/assets/432859/6d102781-4c66-4a43-abb6-7efdae70b204
 
 ## Contributing
 
